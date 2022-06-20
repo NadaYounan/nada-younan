@@ -195,7 +195,7 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #24b662;
+	background: #25537e;
 	color: #ffffff !important;
 }
 
@@ -211,7 +211,7 @@ fieldset {
 }
 
 .button-style:active:before {
-	color: #17954c;
+	color: #25537e;
 }
 
 .button-style-icon:before {
@@ -260,7 +260,7 @@ body.loaded #preloader{
     margin: -75px 0 0 -75px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #385f99;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
@@ -274,7 +274,7 @@ body.loaded #preloader{
     bottom: 5px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #385f99;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
 }
@@ -288,7 +288,7 @@ body.loaded #preloader{
     bottom: 15px;
     border-radius: 50%;
     border: 3px solid transparent;
-    border-top-color: #24b662;
+    border-top-color: #385f99;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
 }
