@@ -53,12 +53,12 @@ body {
 }
 
 ::selection {
-    background-color: #24b662;
+    background-color: #25537e;
     color: #ffffff;
 }
 
 ::-moz-selection {
-    background-color: #24b662;
+    background-color: #25537e;
     color: #ffffff;
 }
 
@@ -120,7 +120,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #24b662;
+    border-bottom: 4px double #25537e;
 	border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
@@ -614,6 +614,8 @@ ul.portfolio li.active {
           transition: all 400ms ease-in-out;
 }
 
+
+
 .portfolio .item a:hover:before{
   opacity: 1;
 }
@@ -621,7 +623,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
     font-size: 50px;
-    background-color: #3e5183;
+    background-color: #b43b3b;
     width: 44px;
 	right: 0px;
 }
