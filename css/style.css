@@ -604,7 +604,7 @@ ul.portfolio li.active {
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #24b662;
+  background-color: #3e5183;
   width: 70px;
   height: 70px;
   border-radius: 50%;
@@ -621,7 +621,7 @@ ul.portfolio li.active {
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
     font-size: 50px;
-    background-color: #24b662;
+    background-color: #3e5183;
     width: 44px;
 	right: 0px;
 }
