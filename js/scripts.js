@@ -223,4 +223,6 @@
 		   
             });
 
-   })(jQuery);
+   })(jQuery); 
+
+/** TRIAL CONTACT FORM */
