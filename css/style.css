@@ -1515,8 +1515,6 @@ ul.portfolio li.active {
     }
   }
 
-
-
 .modal{
     margin-top: 20px;
 }
@@ -1543,3 +1541,7 @@ ul.portfolio li.active {
     z-index: 7;
 }
 
+.video {
+    width: 100%;
+    height: auto;
+  }
