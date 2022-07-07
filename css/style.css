@@ -483,7 +483,7 @@ body.loaded #preloader{
 .navigation-background {
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
-    background: #24598d;
+    background: #151d3a;
 }
 
 .navigation-background .logo {
@@ -979,9 +979,9 @@ ul.portfolio li.active {
 /* Footer */
 
 .footer-section {
-    background: #000;
+    background: #151d3a; 
     padding: 80px 0px;
-    color: #f8f8f8;
+    color: white;
 }
 
 .footer-section p {
@@ -989,7 +989,7 @@ ul.portfolio li.active {
 }
 
 .footer-section a {
-    color: #ffffff;
+    color: white;
 }
 
 
