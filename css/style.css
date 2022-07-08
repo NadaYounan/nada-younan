@@ -442,7 +442,7 @@ body.loaded #preloader{
 
 .logo {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -457,7 +457,7 @@ body.loaded #preloader{
 }
 
 .image-navbar{
-    width: 150px;
+    width: 100px;
 }
 
 .navigation-menu .navbar-nav li a {
@@ -488,7 +488,7 @@ body.loaded #preloader{
 
 .navbar {
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .navigation-background {
