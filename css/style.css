@@ -112,12 +112,11 @@ fieldset {
 }
 
 .section-space-padding {
-    padding: 115px 0px;
+    padding: 130px 0px;
     
 }
 .section-space-padding-one{
     padding-top: 0px;
-    margin-top: 8px;
 }
 .section-title {
     text-align: center;
@@ -535,7 +534,6 @@ body.loaded #preloader{
 /* About Me */
 
 .about-section {
-	overflow: hidden;
 	background-color: #fffcf6;
 }
 

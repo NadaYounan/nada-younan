@@ -114,68 +114,83 @@
         </section>
        
         
-       
+        <!-- About Start -->
         
-    </header>
-    <!-- Home & Menu Section End-->
-    
-    
-    
-    
-    <!-- About Start -->
-    <section id="about" class="about-section">
-            <div class="row">
-
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="about-me section-space-padding-one">
-                        <img class="img-responsive" src="images/bg/my-pic-23.png"  alt="">
-                    </div>
                 
-                </div>
-                    
-                <div class="col-md-6 col-sm-12 col-xs-12">
-                    <div class="about-me section-space-padding">
-                        <div class="section-title-about-me">
-                            <h2>ABOUT ME</h2>
-                        </div>
-                       
-                        
-                        <p>Hi! My name is Nada Younan, I am an undergraduate student of Graphic Design at the German University in Cairo. I graduated from “Lycée International Balzac” with French baccalaureate.</p>
-                        <div class="text-center margin-top-50">
-                            <a class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll" data-toggle="modal" data-target="#cv-modal"> Check Out my CV</a>
-                        </div>
-                    </div>
-                </div>
                 
-            </div>
-    </section>
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <style>
+                * {
+                box-sizing: border-box;
+                }
 
-       <!-- The Modal cv -->
-    <div class="modal fade" id="cv-modal">
-        <div class="modal-dialog modal-xl">
-            <div class="modal-content ">
-                <!-- Modal body -->
-                <div class="modal-body">
+                /* Create two equal columns that floats next to each other */
+                .column {
+                float: left;
+                width: 50%;
+                }
 
-                    <button type="button" class="close close-bottom-modal" data-dismiss="modal">&times;</button>
+                /* Clear floats after the columns */
+                .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+
+                /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+                @media screen and (max-width: 600px) {
+                .column {
+                    width: 100%;
+                }
+                }
+                </style>
+           
+
+            
+            <div class="row" id="about" class="about-section">
+                <div class="column about-me section-space-padding-one">
+                    <img class="img-responsive" src="images/bg/my-pic-23.png"  alt="">
+                </div>
+                <div class="column about-me section-space-padding">
+                    <div class="section-title-about-me">
+                        <h2>ABOUT ME</h2>
+                    </div>
+                   
                     
-                    <section class="welcome-page">
-                        <div class="actions">
-                            <a id="img1" id="img2" href="#welcome-image" ></i></a>        
-                        </div>
-                        <div class="intro-image" class="actions">
-                          
-                          <img id="img1" src="images/bg/my cv.jpg" class="aboutmeimage" alt="">
-                          <img id="img2" src="images/bg/my_cv1.jpg" class="aboutmeimage" alt="">
-                          <img id="img2" src="images/bg/my_cv2.jpg" class="aboutmeimage" alt="">
-          
-                        </div>
-                      
-                    </section>
+                    <p>Hi! My name is Nada Younan, I am an undergraduate student of Graphic Design at the German University in Cairo. I graduated from “Lycée International Balzac” with French baccalaureate.</p>
+                    <div class="text-center margin-top-50">
+                        <a class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right smoth-scroll" data-toggle="modal" data-target="#cv-modal"> Check Out my CV</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+   
+
+            <!-- The Modal cv -->
+            <div class="modal fade" id="cv-modal">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content ">
+                        <!-- Modal body -->
+                        <div class="modal-body">
+
+                            <button type="button" class="close close-bottom-modal" data-dismiss="modal">&times;</button>
+                            
+                            <section class="welcome-page">
+                                <div class="actions">
+                                    <a id="img1" id="img2" href="#welcome-image" ></i></a>        
+                                </div>
+                                <div class="intro-image" class="actions">
+                                
+                                <img id="img1" src="images/bg/my cv.jpg" class="aboutmeimage" alt="">
+                                <img id="img2" src="images/bg/my_cv1.jpg" class="aboutmeimage" alt="">
+                                <img id="img2" src="images/bg/my_cv2.jpg" class="aboutmeimage" alt="">
+                
+                                </div>
+                            
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
        <!-- About End -->
    
     
