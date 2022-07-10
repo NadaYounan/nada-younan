@@ -51,7 +51,7 @@ body {
 html,
 body {
     height: 100%;
-    background-color: #fffcf6; 
+    background-color: #fffcf6
 }
 
 ::selection {
@@ -112,12 +112,9 @@ fieldset {
 }
 
 .section-space-padding {
-    padding: 130px 0px;
-    
+    padding: 100px 0px;
 }
-.section-space-padding-one{
-    padding-top: 0px;
-}
+
 .section-title {
     text-align: center;
 }
@@ -130,21 +127,10 @@ fieldset {
     font-size: 35px;
     margin: 0 auto;
     padding: 10px 0;
+    width: 350px;
 	margin-bottom: 30px;
     
 }
-
-.section-title-about-me h2{
-    font-family: 'Archivo Black', sans-serif;
-    margin-top: 0;
-    font-weight: 800;
-	border-radius: 25px;
-    font-size: 35px;
-    margin: 0 auto;
-	margin-bottom: 30px;
-}
-
-
 /* double line under title
     border-bottom: 4px double #25537e;
 */
@@ -534,7 +520,8 @@ body.loaded #preloader{
 /* About Me */
 
 .about-section {
-	background-color: #fffcf6;
+	overflow: hidden;
+	background-color: #F9F9F9;
 }
 
 .about-section img {
@@ -832,7 +819,7 @@ ul.portfolio li.active {
 .contact-us-detail i {
 	font-size: 30px;
     margin-bottom: 10px;
-    background-color: #f5f5f5;
+    background-color: #fff;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
 	transition: all 0.3s ease-in-out;
@@ -852,7 +839,6 @@ ul.portfolio li.active {
 
 .contact-us-detail a:hover {
 	color: #333;
-
 }
 
 .form-group {
@@ -1092,10 +1078,10 @@ ul.portfolio li.active {
         margin-top: -30px;
     }
     .navbar-collapse {
-        background: #8585c0;
+        background: rgba(0, 0, 0, .9);
     }
     .navigation-background .navbar-collapse {
-        background: #8585c0;
+        background: rgba(0, 0, 0, .9);
     }
     .home-section-background {
         padding-top: 120px;
