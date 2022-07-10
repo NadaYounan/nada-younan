@@ -1089,10 +1089,10 @@ ul.portfolio li.active {
         margin-top: -30px;
     }
     .navbar-collapse {
-        background: rgba(0, 0, 0, .9);
+        background: #8585c0;
     }
     .navigation-background .navbar-collapse {
-        background: rgba(0, 0, 0, .9);
+        background: #8585c0;
     }
     .home-section-background {
         padding-top: 120px;
