@@ -532,7 +532,6 @@ body.loaded #preloader{
 
 .about-section {
 	overflow: hidden;
-	background-color: #F9F9F9;
 }
 
 .about-section img {
@@ -540,16 +539,20 @@ body.loaded #preloader{
 }
 
 .about-me h2 {
-	padding: 0px 90px;
+	padding: 0px 100px;
+    padding-bottom: 20px;
 }
 
 .about-me p {
 	padding-left: 90px;
     padding-right: 90px;
 	font-size: 15px;
-    text-align: justify;
+    text-align: left;
 }
 
+.about-me-text{
+    background-color: #f5eeda
+}
 
 
 /* Portfolio */
@@ -631,11 +634,11 @@ ul.portfolio li.active {
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #3e5183;
-  width: 70px;
-  height: 70px;
+  background-color: #385f99;
+  width: 85px;
+  height: 85px;
   border-radius: 50%;
-  line-height: 70px;
+  line-height: 85px;
   margin: 0 auto;
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
