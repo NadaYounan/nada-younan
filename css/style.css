@@ -131,6 +131,17 @@ fieldset {
 	margin-bottom: 30px;
     
 }
+
+.section-title-about-me h2{
+    font-family: 'Archivo Black', sans-serif;
+    margin-top: 0;
+    font-weight: 800;
+	border-radius: 25px;
+    font-size: 35px;
+    margin: 0 auto;
+    padding: 10px 0;
+	margin-bottom: 30px;
+}
 /* double line under title
     border-bottom: 4px double #25537e;
 */
