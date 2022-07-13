@@ -1538,7 +1538,7 @@ ul.portfolio li.active {
  /* MODAL XL SETTINGS */
 @media (min-width: 768px) {
     .modal-xl {
-      width: 90%;
+      width: 80%;
      max-width:1200px;
     }
   }
