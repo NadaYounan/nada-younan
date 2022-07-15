@@ -1545,7 +1545,6 @@ ul.portfolio li.active {
 
 .modal{
     margin-top: 80px;
-
 }
 
 .modal-body{
@@ -1568,6 +1567,7 @@ ul.portfolio li.active {
     font-size: 40px;
     opacity: 1;
     z-index: 7;
+    position: fixed;
 }
 
 .video {
