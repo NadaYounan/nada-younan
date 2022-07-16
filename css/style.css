@@ -213,7 +213,12 @@ fieldset {
 .button-style:active,
 .button-style:focus {
 	background: #25537e;
-	color: #ffffff !important;
+    background: #f6a22d;
+    background: #d16b52;
+    background: #f4a8bb;
+    background: #8585c0;
+
+	color: #25537e !important;
 }
 
 .button-style:before {
@@ -221,7 +226,7 @@ fieldset {
 	height: 100%;
 	font-size: 125%;
 	line-height: 3.5;
-	color: #fff;
+	color: #25537e;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -241,8 +246,8 @@ fieldset {
 }
 
 .button-style-dark {
-	border: 3px solid #000000 !important;
-	color: #000000;
+	border: 3px solid #f5eeda !important;
+	color: #f5eeda;
 }
 
 
@@ -507,6 +512,7 @@ body.loaded #preloader{
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     background: #8585c0;
+
 }
 
 .navigation-background .logo {
@@ -551,7 +557,12 @@ body.loaded #preloader{
 }
 
 .about-me-text{
-    background-color: #f5eeda
+    background-color: #24598d;
+    background-color: #8585c0;
+    background-color: #24598d;
+
+    color: #f5eeda;
+
 }
 
 
@@ -593,6 +604,7 @@ ul.portfolio li:hover {
 
 ul.portfolio li.active {
     color: #ffffff;
+    background-color: #f4a8bb;
     background-color: #f6a22d;
     padding: 5px 20px;
     border-radius: 20px;
@@ -826,6 +838,10 @@ ul.portfolio li.active {
 
 .contact-us {
 	background-color: #d2d1ee;
+    background-color: #b2b1d1;
+    background-color: #24598d;
+
+
 }
 
 
@@ -833,7 +849,7 @@ ul.portfolio li.active {
 .contact-us-detail i {
 	font-size: 30px;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: #f5eeda;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
 	transition: all 0.3s ease-in-out;
@@ -848,13 +864,15 @@ ul.portfolio li.active {
 }
 
 .contact-us-detail a {
-	color: #333;
+	color: #f5eeda;
 }
 
 .contact-us-detail a:hover {
-	color: #333;
+	color: #f5eeda;
 }
-
+.contact-me-title{
+    color: #f5eeda;
+}
 .form-group {
 	margin-bottom: 25px;
 }
@@ -1008,7 +1026,12 @@ ul.portfolio li.active {
 
 .footer-section {
     background: #151d3a; 
-    padding: 80px 0px;
+    background: #8eb8f2;
+    background: #24598d;
+    background: #8585c0; 
+    background: #8eb8f2;
+
+    padding: 10px 0px;
     color: white;
 }
 
@@ -1020,8 +1043,14 @@ ul.portfolio li.active {
     color: white;
 }
 
+.image-footer{
+    width: 120px;
+    padding-top: 10px;
+}
 
-
+.copyright-class{
+    padding-top: 50px;
+}
 /* Responsive */
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
