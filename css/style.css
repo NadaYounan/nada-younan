@@ -34,7 +34,7 @@
 
 */
 
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap');
 
 /* Global Style */
 
@@ -46,6 +46,9 @@ body {
     letter-spacing: 1px;
     height: 100%;
     font-family: 'Poppins', sans-serif;
+    font-family: 'Syne';
+    font-weight: 600;
+
 }
 
 html,
@@ -118,36 +121,56 @@ fieldset {
 .section-title {
     text-align: center;
 }
+@font-face {
+    font-family: 'neulis-bold';
+    src: url(.fonts/neulis-bold.otf);
+    }
 
+   
 .section-title h2 {
     font-family: 'Archivo Black', sans-serif;
+    font-family: neulis;
     margin-top: 0;
-    font-weight: 800;
 	border-radius: 25px;
-    font-size: 35px;
+    font-size: 60px;
     margin: 0 auto;
     padding: 10px 0;
-    width: 350px;
+    width: 400px;
 	margin-bottom: 30px;
-    
 }
 
+.section-title p{
+    color: #8eb8f2;
+    font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+
+}
 .section-title-about-me h2{
     font-family: 'Archivo Black', sans-serif;
+    font-family: neulis;
     margin-top: 0;
-    font-weight: 800;
 	border-radius: 25px;
-    font-size: 35px;
+    font-size: 40px;
     margin: 0 auto;
     padding: 10px 0;
 	margin-bottom: 30px;
+}
+.section-title-about-me p{
+    font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 40px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
 }
 /* double line under title
     border-bottom: 4px double #25537e;
 */
 
 .section-title p {
-    font-weight: 400;
+    font-weight: 600;
 	line-height: 25px;
 	margin-bottom: 40px;
 }
@@ -486,6 +509,7 @@ body.loaded #preloader{
     -webkit-transition: .3s;
     transition: .3s;
     font-weight: 600;
+    font-family: neulis;
 }
 
 .navigation-menu .navbar-nav li a:hover {
@@ -595,6 +619,10 @@ ul.portfolio li {
     border: none;
     cursor: pointer;
     font-size: 13px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+
 }
 
 ul.portfolio li:hover {
@@ -1163,7 +1191,7 @@ ul.portfolio li.active {
       }
 	  
      .section-title h2 {
-         font-size: 16px;
+         font-size: 40px;
        }
 	   
       .section-title h2 {
