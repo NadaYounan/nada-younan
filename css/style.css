@@ -240,6 +240,9 @@ fieldset {
     background: #d16b52;
     background: #f4a8bb;
     background: #8585c0;
+    background: #f4a8bb;
+
+
 
 	color: #25537e !important;
 }
@@ -500,6 +503,14 @@ body.loaded #preloader{
     width: 100px;
 }
 
+.nav-bar-footer{
+    font-family: neulis;
+    font-size: 19px;
+}
+.check-my-cv{
+    font-family: neulis;
+    font-size: 15px;
+}
 .navigation-menu .navbar-nav li a {
     color: #f5eeda;
     text-transform: uppercase;
@@ -536,6 +547,7 @@ body.loaded #preloader{
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     background: #8585c0;
+    
 
 }
 
@@ -1059,7 +1071,7 @@ ul.portfolio li.active {
     background: #8585c0; 
     background: #8eb8f2;
 
-    padding: 10px 0px;
+    padding: 20px 0px;
     color: white;
 }
 
@@ -1621,7 +1633,7 @@ ul.portfolio li.active {
     border-radius: 23px;
     background-color: #00aeef;
     color: #ff0000;
-    font-size: 40px;
+    font-size: 60px;
     opacity: 1;
     z-index: 7;
     position: fixed;
