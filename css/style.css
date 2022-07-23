@@ -274,8 +274,6 @@ fieldset {
 	color: #f5eeda;
 }
 
-
-
 /* Preloader */
 
 #preloader {
@@ -607,6 +605,7 @@ body.loaded #preloader{
 
 .portfolio{
     background-color: #fffcf6;
+    padding-top: 40px;
 }
 .portfolio-inner .mix {
     display: none;
@@ -615,7 +614,8 @@ body.loaded #preloader{
 ul.portfolio {
     padding: 0;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: 8px;
     text-align: center;
 }
