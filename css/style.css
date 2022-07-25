@@ -501,6 +501,8 @@ body.loaded #preloader{
 
 .nav-bar-footer{
     font-family: neulis;
+    font-family: neulis;
+
     font-size: 19px;
 }
 
@@ -519,6 +521,8 @@ body.loaded #preloader{
     transition: .3s;
     font-weight: 600;
     font-family: neulis;
+    font-family: syne;
+
 }
 
 .navigation-menu .navbar-nav li a:hover {
@@ -1140,6 +1144,7 @@ ul.portfolio li.active {
     }
     .navbar {
         min-height: 0px;
+       
     }
     .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
@@ -1216,6 +1221,7 @@ ul.portfolio li.active {
         width: 200px;
      }
 
+     
 	 .section-title-about{
         font-family: 'Archivo Black', sans-serif;
         text-transform: uppercase;
@@ -1246,6 +1252,9 @@ ul.portfolio li.active {
         transition: .3s;
         font-weight: 600;
         font-family: 'Archivo Black', sans-serif;
+        font-family: syne;
+        
+    
 
      }
      .nav-bar-footer{
