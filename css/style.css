@@ -239,10 +239,18 @@ fieldset {
     background: #f4a8bb;
     background: #8585c0;
     background: #f4a8bb;
+   
 
 
 
 	color: #25537e !important;
+}
+
+.button-style-close:hover,
+.button-style-close:active,
+.button-style-close:focus {
+    background: #25537e;
+    color: #F9F9F9 !important;
 }
 
 .button-style:before {
@@ -1683,6 +1691,7 @@ ul.portfolio li.active {
 .video {
     width: 100%;
     height: auto;
+    padding-bottom: 0;
   }
 
  
