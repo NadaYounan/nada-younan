@@ -1270,6 +1270,37 @@ ul.portfolio li.active {
         font-weight: 600;
         font-family: 'Archivo Black', sans-serif;
      }
+
+
+     .wavy{
+        position: relative;
+        height: 50px;
+        margin-top: 3px;
+    
+    }
+    .wavy::before{
+        content: 'aaaaaaaaaa';
+        position: absolute;
+        top: -42px;
+        left: 0;
+        font-size: 4em;
+        color: transparent;
+        text-decoration: wavy;
+        text-decoration-color: #3b5998;
+        text-decoration-line: underline;
+        animation: animate 1s linear infinite;
+    
+    }
+    @keyframes animate{
+        0%
+        {
+            transform: translateX(-20px);
+        }
+        100%
+        {
+            transform: translateX(-50px);
+        }
+    }
      
 }
 
@@ -1694,4 +1725,71 @@ ul.portfolio li.active {
     padding-bottom: 0;
   }
 
- 
+
+  /* WAVY LINEEEEE */
+
+.wavy{
+    position: relative;
+    height: 50px;
+    margin-top: 3px;
+
+}
+.wavy::before{
+    content: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaii';
+    position: absolute;
+    top: -42px;
+    left: 0;
+    font-size: 4em;
+    color: transparent;
+    text-decoration: wavy;
+    text-decoration-color: #3b5998;
+    text-decoration-line: underline;
+    animation: animate 1s linear infinite;
+
+}
+@keyframes animate{
+    0%
+    {
+        transform: translateX(-20px);
+    }
+    100%
+    {
+        transform: translateX(-50px);
+    }
+}
+
+@media only screen and (max-width: 555px){
+    .wavy::before{
+        content: '';
+        position: absolute;
+        top: -42px;
+        left: 0;
+        right: 0;
+        font-size: 4em;
+        color: transparent;
+        text-decoration: wavy;
+        text-decoration-color: #3b5998;
+        text-decoration-line: underline;
+        animation: animate 1s linear infinite; 
+    }    
+    .modal{
+        margin-top: 100px;
+    }
+
+}
+@media only screen and (max-width: 1300px){
+    .wavy::before{
+        content: '';
+        position: absolute;
+        top: -42px;
+        left: 0;
+        right: 0;
+        font-size: 4em;
+        color: transparent;
+        text-decoration: wavy;
+        text-decoration-color: #3b5998;
+        text-decoration-line: underline;
+        animation: animate 1s linear infinite;
+    }    
+
+}
