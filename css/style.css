@@ -291,6 +291,7 @@ fieldset {
     height: 100%;
     width: 100%;
     background: #8585c0;
+    background: url('../images/bg/gif.gif') no-repeat center;
     z-index: 999;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
