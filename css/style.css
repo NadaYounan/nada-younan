@@ -284,13 +284,13 @@ fieldset {
 
 /* Preloader */
 
-#preloader {
+#preloader {    
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    background: #ffffff;
+    background: #8585c0;
     z-index: 999;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -303,6 +303,7 @@ body.loaded #preloader{
 }
 
 .loader{
+    
     display: block;
     position: relative;
     left: 50%;
@@ -329,6 +330,7 @@ body.loaded #preloader{
     border-top-color: #385f99;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
+    
 }
 
 .loader:after{
