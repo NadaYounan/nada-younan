@@ -292,6 +292,7 @@ fieldset {
     width: 100%;
     background: #8585c0;
     background: url('../images/bg/gif.gif') no-repeat center ;
+    background-size: 100%;
     z-index: 999;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -1782,6 +1783,20 @@ ul.portfolio li.active {
     }    
     .modal{
         margin-top: 100px;
+    }
+    #preloader {    
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: #8585c0;
+        background: url('../images/bg/gif.gif') no-repeat center ;
+        background-size: 200%;
+        z-index: 999;
+        -webkit-transition: all .5s ease;
+        -moz-transition: all .5s ease;
+        transition: all .5s ease;
     }
 
 }
