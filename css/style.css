@@ -53,7 +53,9 @@ body {
 html,
 body {
     height: 100%;
-    background-color: #fffcf6
+    background-color: #fffcf6;
+    background-color: #f5f0e7;
+
 }
 
 ::selection {
@@ -170,7 +172,7 @@ fieldset {
 .section-title p {
     font-weight: 600;
 	line-height: 25px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
 .bg-cover {
@@ -190,7 +192,7 @@ fieldset {
 	cursor: pointer;
 	padding: 25px 80px;
 	display: inline-block;
-	margin: 15px 30px;
+	margin: 10px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -233,23 +235,24 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #25537e;
     background: #f6a22d;
     background: #d16b52;
     background: #f4a8bb;
     background: #8585c0;
-    background: #f4a8bb;
-   
+    background: #f4a8bb;	
+    background: #25537e;
+    background: #252635;
 
 
 
-	color: #25537e !important;
+
+	color: #F9F9F9 !important;
 }
 
 .button-style-close:hover,
 .button-style-close:active,
 .button-style-close:focus {
-    background: #25537e;
+    background: #252635;
     color: #F9F9F9 !important;
 }
 
@@ -258,14 +261,14 @@ fieldset {
 	height: 100%;
 	font-size: 125%;
 	line-height: 3.5;
-	color: #25537e;
+	color: #252635;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
 .button-style:active:before {
-	color: #25537e;
+	color: #252635;
 }
 
 .button-style-icon:before {
@@ -588,7 +591,9 @@ body.loaded #preloader{
 
 .about-section {
 	overflow: hidden;
+    background-color: #8585c0;
     background-color: #24598d;
+
 }
 
 .about-section img {
@@ -596,8 +601,8 @@ body.loaded #preloader{
 }
 
 .about-me h2 {
-	padding: 0px 100px;
-    padding-bottom: 20px;
+	padding: 0px 90px;
+    padding-bottom: 10px;
 }
 
 .about-me p {
@@ -608,11 +613,12 @@ body.loaded #preloader{
 }
 
 .about-me-text{
-    background-color: #24598d;
     background-color: #8585c0;
-    background-color: #24598d;
+    background-color: rgb(10,89 ,145);
 
+    color: #21233f;
     color: #f5eeda;
+
 
 }
 
@@ -622,6 +628,8 @@ body.loaded #preloader{
 
 .portfolio{
     background-color: #fffcf6;
+    background-color: #f5f0e7;
+
     padding-top: 40px;
 }
 .portfolio-inner .mix {
@@ -1099,6 +1107,8 @@ ul.portfolio li.active {
 
 .footer-section a {
     color: white;
+    text-decoration: underline;
+
 }
 
 .image-footer{
@@ -1743,7 +1753,7 @@ ul.portfolio li.active {
 .wavy{
     position: relative;
     height: 50px;
-    margin-top: 8px;
+    margin-top: 50px;
 
 }
 .wavy::before{
@@ -1754,7 +1764,13 @@ ul.portfolio li.active {
     font-size: 4em;
     color: transparent;
     text-decoration: wavy;
+    text-decoration-color: #4e7951;
+    text-decoration-color: #8585c0;;
     text-decoration-color: #24598d;
+    text-decoration-color: #d8912d;
+
+
+
     text-decoration-line: underline;
     animation: animate 1s linear infinite;
 

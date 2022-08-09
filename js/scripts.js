@@ -227,7 +227,7 @@
 
 /** TRIAL line byemshi */
 var ticker = function(){
-    $("#ticker").css({left:"90%"}).animate({ "left": "-1800px" }, 20000, 'linear', ticker);
+    $("#ticker").css({left:"10%"}).animate({ "left": "-1800px" }, 20100, 'linear', ticker);
 }
 
 ticker();
