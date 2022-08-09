@@ -592,7 +592,7 @@ body.loaded #preloader{
 .about-section {
 	overflow: hidden;
     background-color: #8585c0;
-    background-color: #24598d;
+    background-color: rgb(10,89 ,145);
 
 }
 
@@ -1764,10 +1764,11 @@ ul.portfolio li.active {
     font-size: 4em;
     color: transparent;
     text-decoration: wavy;
-    text-decoration-color: #4e7951;
     text-decoration-color: #8585c0;;
     text-decoration-color: #24598d;
     text-decoration-color: #d8912d;
+    text-decoration-color: #f6a22d;
+
 
 
 
