@@ -897,6 +897,7 @@ ul.portfolio li.active {
 	background-color: #d2d1ee;
     background-color: #b2b1d1;
     background-color: #24598d;
+    
 
 
 }
@@ -1736,12 +1737,13 @@ ul.portfolio li.active {
 }
 
 
+
   /* WAVY LINEEEEE */
 
 .wavy{
     position: relative;
     height: 50px;
-    margin-top: 3px;
+    margin-top: 8px;
 
 }
 .wavy::before{
@@ -1752,11 +1754,12 @@ ul.portfolio li.active {
     font-size: 4em;
     color: transparent;
     text-decoration: wavy;
-    text-decoration-color: #3b5998;
+    text-decoration-color: #24598d;
     text-decoration-line: underline;
     animation: animate 1s linear infinite;
 
 }
+
 .download-icon{
     width: 30px;
     padding: 0%;
@@ -1869,3 +1872,4 @@ ul.portfolio li.active {
     }
 
 }
+

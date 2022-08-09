@@ -225,4 +225,9 @@
 
    })(jQuery); 
 
-/** TRIAL CONTACT FORM */
+/** TRIAL line byemshi */
+var ticker = function(){
+    $("#ticker").css({left:"90%"}).animate({ "left": "-1800px" }, 20000, 'linear', ticker);
+}
+
+ticker();
