@@ -231,3 +231,12 @@ var ticker = function(){
 }
 
 ticker();
+
+
+$(".fade").mouseenter(function() {
+	$("#" + this.id).prev().css("opacity", 0.35);
+});
+
+$(".fade").mouseleave(function() {
+	$("#" + this.id).prev().css("opacity", 1);
+});

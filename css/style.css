@@ -35,7 +35,7 @@
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Montserrat:wght@700;800&family=Syne:wght@400;500;600;700;800&display=swap');
 /* Global Style */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&display=swap');
@@ -629,8 +629,9 @@ body.loaded #preloader{
 .portfolio{
     background-color: #fffcf6;
     background-color: #f5f0e7;
-
     padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .portfolio-inner .mix {
     display: none;
@@ -677,13 +678,21 @@ ul.portfolio li.active {
 }
 
 .portfolio .item {
-    margin-top: 30px;
+    margin-top: 25px;
     position: relative;
 }
+.col-md-4{
+    
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+
 
 .portfolio .item img {
     width: 100%;
     border-radius: 5px;
+
 
 }
 
@@ -694,37 +703,42 @@ ul.portfolio li.active {
 
 .portfolio .item:hover a:before{
   top: 40%;
+  
   box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
+
 }
 
 .portfolio .item a:before{
-  color: #ffffff;
+  color:  #385f99;
   content: "\f00e";
   font-family: "FontAwesome";
   text-align: center;
-  color: #ffffff;
+  color:  #385f99;
   position: absolute;
   font-size: 25px;
   top: 2%;
   opacity: 0;
   left: 0%;
   right: 0%;
-  background-color: #385f99;
+  background-color: rgba(255, 255, 255, 0.808);
   width: 85px;
   height: 85px;
-  border-radius: 50%;
+  border-radius: 100%;
   line-height: 85px;
   margin: 0 auto;
   -webkit-transition: all 400ms ease-in-out;
           transition: all 400ms ease-in-out;
+          
 }
 
+ 
 
 
 .portfolio .item a:hover:before{
   opacity: 1;
+
 }
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
@@ -1133,6 +1147,9 @@ ul.portfolio li.active {
 	.navigation-background .logo {
 		padding-top: 28px;
 	}
+
+    
+    
 }
 
 
@@ -1152,8 +1169,8 @@ ul.portfolio li.active {
      .footer-section p {
          text-align: center !important;
      }
+    
 }
-
 
 @media only screen and (max-width: 767px) {
     .navbar-toggle .icon-bar {
@@ -1710,6 +1727,9 @@ ul.portfolio li.active {
 .modal{
     margin-top: 80px;
 }
+.modal-backdrop.in{
+    opacity: .8;
+}
 
 .modal-body{
     padding: 0%;
@@ -1856,6 +1876,8 @@ ul.portfolio li.active {
         -moz-transition: all .5s ease;
         transition: all .5s ease;
     }
+   
+    
 
 }
 @media only screen and (max-width: 1300px){
@@ -1887,6 +1909,12 @@ ul.portfolio li.active {
         -moz-transition: all .5s ease;
         transition: all .5s ease;
     }
-
+    
 }
 
+@media only screen and (min-width: 1025px) {
+    .container {
+        /*...your desktop-only style...*/
+        width: 1330px;
+    }
+} 
