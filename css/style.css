@@ -36,6 +36,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Syne:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Montserrat:wght@700;800&family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Montserrat:wght@700;800&family=Pacifico&family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&family=Montserrat:wght@700;800&family=Pacifico&family=Sacramento&family=Syne:wght@400;500;600;700;800&display=swap');
 /* Global Style */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Lexend+Mega:wght@500;600;700;800;900&display=swap');
@@ -55,6 +57,8 @@ body {
     height: 100%;
     background-color: #fffcf6;
     background-color: #f5f0e7;
+   
+
 
 }
 
@@ -137,6 +141,7 @@ fieldset {
     padding: 10px 0;
     width: 400px;
 	margin-bottom: 30px;
+    font-weight: 700;
 }
 
 .section-title p{
@@ -151,6 +156,7 @@ fieldset {
 .section-title-about-me h2{
     font-family: 'Archivo Black', sans-serif;
     font-family: neulis;
+    
     margin-top: 0;
 	border-radius: 25px;
     font-size: 40px;
@@ -165,6 +171,9 @@ fieldset {
     font-family: 'Syne', sans-serif;
     font-weight: 600;
 }
+
+
+
 /* double line under title
     border-bottom: 4px double #25537e;
 */
