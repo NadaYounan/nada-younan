@@ -156,7 +156,6 @@ fieldset {
 .section-title-about-me h2{
     font-family: 'Archivo Black', sans-serif;
     font-family: neulis;
-    
     margin-top: 0;
 	border-radius: 25px;
     font-size: 40px;
@@ -593,6 +592,8 @@ body.loaded #preloader{
 .navigation-background .navigation-menu .navbar-nav li a:hover {
     color: rgb(255, 174, 0);
 }
+
+
 
 
 
@@ -1325,6 +1326,7 @@ ul.portfolio li.active {
         height: 50px;
         margin-top: 3px;
     
+    
     }
     .wavy::before{
         content: 'aaaaaaaaaa';
@@ -1337,6 +1339,7 @@ ul.portfolio li.active {
         text-decoration-color: #3b5998;
         text-decoration-line: underline;
         animation: animate 1s linear infinite;
+    
     
     }
     @keyframes animate{
@@ -1846,6 +1849,11 @@ ul.portfolio li.active {
 .fa-download-style{
     size: 30px;
 }
+.active, .collapsible:hover {
+    text-decoration:  #f6a22d;
+    background-color: #5e5f8d44;
+    border-radius: 20px;
+  }
 
 
 

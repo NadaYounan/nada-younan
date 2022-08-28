@@ -240,3 +240,20 @@ $(".fade").mouseenter(function() {
 $(".fade").mouseleave(function() {
 	$("#" + this.id).prev().css("opacity", 1);
 });
+
+/*trial slider */
+
+function prev(){
+    document.getElementById('slider-container').scrollLeft -= 270;
+}
+
+function next()
+{
+    document.getElementById('slider-container').scrollLeft += 270;
+}
+
+
+$(".slide img").on("click" , function(){
+  $(this).toggleClass('zoomed');
+  $(".overlay").toggleClass('active');
+})
