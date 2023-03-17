@@ -191,6 +191,14 @@ fieldset {
 	cursor: url(../images/owl-carousel/grabbing.png) 8 8, move;
 }
 
+.check-my-cv{
+    font-family: neulis;
+    font-size: 15px;
+    background-color: #202233;
+    background-color: #8585c0;
+    background-color:#e9a03a
+}
+
 .button {
 	border: none;
 	font-family: inherit;
@@ -209,6 +217,11 @@ fieldset {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+    margin-top: 20px;
+}
+.btn-group{
+    float: left; /* Float the buttons side by side */
+
 }
 
 .button:after {
@@ -246,10 +259,12 @@ fieldset {
     background: #f6a22d;
     background: #d16b52;
     background: #f4a8bb;
-    background: #8585c0;
     background: #f4a8bb;	
     background: #25537e;
     background: #252635;
+    background: #8585c0;
+    background: #7878ad; 
+
 
 
 
@@ -529,10 +544,7 @@ body.loaded #preloader{
     font-size: 19px;
 }
 
-.check-my-cv{
-    font-family: neulis;
-    font-size: 15px;
-}
+
 
 .navigation-menu .navbar-nav li a {
     color: #f5eeda;
@@ -572,6 +584,10 @@ body.loaded #preloader{
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
     background: #8585c0;
+    background: #7070a5;
+    background: #8585c0;
+
+
     
 
 }
@@ -636,9 +652,112 @@ body.loaded #preloader{
 /* Portfolio */
 
 
+/* TEXT OVER THE IMAGES OF PORTFOILIO */
+
+/*position of the text*/
+.textover { position: relative; } /* REQUIRED */
+    .textover figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+}
+/*style and background*/
+.textover figcaption{
+    background: #21233fce;
+    box-sizing: border-box;
+    border-radius: 0px 0px 5px 5px ;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: left;
+    font-size: 13px;
+}
+/*position of the text see moree */
+.textover-seemore { position: relative; } /* REQUIRED */
+    .textover figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+}
+/*style and background*/
+.textover-seemore figcaption{
+    border-radius: 0px 0px 5px 5px ;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: right;
+    font-size: 13px;
+    background: #21233f00;
+}
+.button-seemore{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+.button-seemore:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(255, 174, 0);
+}
+
+/*100 best poster boton*/
+.textover-100best figcaption{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    background: #21233f00;
+    background: #709cb7;
+}
+.button-100best{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+.button-100best:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(255, 174, 0);
+}
+/* Footer*/
+
+.textover-footer figcaption{
+    width: 100%;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: syne;
+    background: #21233f00;
+    background: #8eb8f2;
+}
+.button-footer{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: white;
+}
+.button-footer:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(255, 174, 0);
+}
+
+
+
+
+.four-columns{
+    background-color: #000;
+}
+
+
 .portfolio{
     background-color: #fffcf6;
+    background-color: #202233;
     background-color: #f5f0e7;
+
+    
+
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
@@ -1273,16 +1392,18 @@ ul.portfolio li.active {
       .section-title h2 {
         font-size: 30px;
         font-family: 'Archivo Black', sans-serif;
-        text-transform: uppercase;
+        font-family: neulis;
         font-weight: 500;
+        font-weight: bold;
         width: 200px;
      }
 
      
 	 .section-title-about{
         font-family: 'Archivo Black', sans-serif;
-        text-transform: uppercase;
+        font-family: neulis;
         font-weight: 500;
+        font-weight: bold;
         width: 200px;
         font-size: 30px;
      }
@@ -1751,6 +1872,7 @@ ul.portfolio li.active {
 
 .modal-body{
     padding: 0%;
+    background-color: #000;
 }
 .modal-content{
     margin-top: 50px;
@@ -1778,6 +1900,27 @@ ul.portfolio li.active {
     height: auto;
     padding-bottom: 0;
   }
+
+
+.image-embeded{
+    width: fit-content;
+    block-size: fit-content;
+    width: 100%;
+    height: 400px;
+    overflow: none;
+    object-fit: contain;
+    border: none;
+    padding: 0%;
+    
+}  
+.white-padding{
+    padding-top: 20px;
+    background-color: ivory;
+}
+
+.anouncement{
+padding: 0%;
+}
 
 .twoimgs{
     padding: 0%;
@@ -1822,6 +1965,7 @@ ul.portfolio li.active {
     position: absolute;
 }
 
+
 .button-download{
     border: none;
 	font-family: inherit;
@@ -1829,10 +1973,7 @@ ul.portfolio li.active {
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 	display: inline-block;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -1842,9 +1983,11 @@ ul.portfolio li.active {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
-    margin-top: 70px;
-    margin-bottom: 100px;
-    margin-left: 0%;
+    margin-bottom: 20px;
+    color: white;
+    padding: 25px 80px;
+    margin-top: 0%;
+
 }
 .fa-download-style{
     size: 30px;
@@ -1855,8 +1998,99 @@ ul.portfolio li.active {
     border-radius: 20px;
   }
 
-
-
+  /*CONTAT FORM*/
+  .contact-form-wrapper {
+    padding: 17px 0;
+  }
+  
+  .contact-form {
+    padding: 30px 40px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    max-width: 400px;
+  }
+  .contact-form-box{
+    padding: 30px 40px;
+    background-color: #25294e;
+    border-radius: 12px;
+    
+  }
+ 
+  .contact-form textarea {
+    resize: none;
+  }
+  
+  .contact-form .form-input,
+  .form-text-area {
+    background-color: #f0f4f5;
+    height: 50px;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-text-area {
+    background-color: #f0f4f5;
+    height: auto;
+    padding-left: 16px;
+  }
+  
+  .contact-form .form-control::placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+    opacity: 1;
+  }
+  
+  .contact-form .form-control:-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control::-ms-input-placeholder {
+    color: #aeb4b9;
+    font-weight: 500;
+  }
+  
+  .contact-form .form-control:focus {
+    border-color: #f33fb0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.07), 0 0 8px #f33fb0;
+  }
+  
+  .contact-form .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .contact-form .description {
+    color: #aeb4b9;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper {
+    text-align: center;
+  }
+  
+  .contact-form .submit-button-wrapper input {
+    border: none;
+    border-radius: 4px;
+    background-color: #f23292;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-weight: 500;
+    letter-spacing: 2px;
+  }
+  
+  .contact-form .submit-button-wrapper input:hover {
+    background-color: #d30069;
+  }
+  .gif-png-{
+     
+      width: clamp(100px, 90%, 1000px);
+   
+    display: flex;
+    flex-wrap: wrap;
+  }
 @keyframes animate{
     0%
     {
@@ -1900,6 +2134,7 @@ ul.portfolio li.active {
         transition: all .5s ease;
     }
    
+   
     
 
 }
@@ -1932,6 +2167,10 @@ ul.portfolio li.active {
         -moz-transition: all .5s ease;
         transition: all .5s ease;
     }
+    .g-recaptcha {
+        transform-origin: left top;
+        -webkit-transform-origin: left top;
+      }
     
 }
 
@@ -1940,4 +2179,20 @@ ul.portfolio li.active {
         /*...your desktop-only style...*/
         width: 1330px;
     }
+    .gif-png-{
+     
+        margin-top: 40px;
+    }
+    .click-here{
+        margin-top: 80px;
+    }
 } 
+
+@media screen and (max-width: 575px) { 
+    #rc-imageselect, .g-recaptcha 
+    {
+    transform:scale(0.77);
+    -webkit-transform:scale(0.77);transform-origin:0 0;
+    -webkit-transform-origin:0 0;
+    } 
+    }
